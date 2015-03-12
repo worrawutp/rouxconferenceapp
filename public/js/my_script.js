@@ -12,6 +12,9 @@ $(function(){
 		  $('.dropdown-menu', this).fadeIn();
 		}, function(){
 			$('.dropdown-menu', this).fadeOut('fast');
-		}); // hover
+	}); // hover
+
+	// tooltip for artists thumbnail
+	$('[data-toggle="tooltip"]').tooltip({ animation: true });
 
 }); // jQuery is loaded
