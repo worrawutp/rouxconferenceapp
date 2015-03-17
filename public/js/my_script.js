@@ -1,4 +1,7 @@
 $(function(){
+	//active schedule tabs
+	var hashtag = location.hash;
+	hashtag && $('ul.nav a[href="' + hashtag + '"]').tab('show')
 
 	//Make menu properly active
 	$("#home a:contains('Home')").parent().addClass('active');

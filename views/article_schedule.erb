@@ -1,0 +1,28 @@
+<article class="schedule">
+	<h2>Schedule</h2>
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+	<div class="tabpanel">
+		<ul class="nav nav-tabs">
+			<li class="active"><a href="#monday" data-toggle="tab">Monday</a></li>
+			<li><a href="#tuesday" data-toggle="tab">Tuesday</a></li>
+			<li><a href="#wednesday" data-toggle="tab">Wednesday</a></li>
+			<li><a href="#thursday" data-toggle="tab">Thursday</a></li>
+			<li><a href="#friday" data-toggle="tab">Friday</a></li>
+		</ul>
+	</div>
+
+	<div class="tab-content">
+		<%= erb :'schedule/snippet_schedule_monday' %>
+		<%= erb :'schedule/snippet_schedule_tuesday' %>
+
+		<div class="tab-panne" id="wednesday"></div>
+		<div class="tab-panne" id="thursday"></div>
+		<div class="tab-panne" id="friday"></div>
+	</div>
+</article>
