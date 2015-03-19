@@ -1,0 +1,70 @@
+<article class="registrationform">
+	<h2>Registration Form</h2>
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam quam ipsum voluptatum impedit a. Adipisci accusantium amet, officia soluta consequatur cum inventore, hic doloribus deserunt!</p>
+	<form class="registration form-horizontal" action="#" method="">
+		<fieldset id="personalinfo">
+			<legend>Personal Info</legend>
+			<div class="form-group">
+				<label class="control-label col-sm-3" for="myname">Name</label>
+				<div class="col-sm-9">
+					<input class="form-control" type="text" name="myname" id="myname" placeholder="Last, First" autofocus>
+				</div>
+			</div>
+
+			<div class="form-group">
+				<label class="control-label col-sm-3" for="companyname">Company Name</label>
+				<div class="col-sm-9">
+					<input class="form-control" type="text" name="companyname" id="companyname">
+				</div>
+			</div>
+		</fieldset> <!-- Personal Info -->
+
+	<fieldset id="otherinfo">
+		<legend>Other Info</legend>
+
+		<div class="form-group">
+			<label for="" class="control-label col-sm-3">Request Type</label>
+			<div class="radio">
+				<div class="col-sm-9">
+				<label>
+					<input type="radio" name="requesttype" value="question">Question
+				</label>
+				</div>
+			</div>
+			<div class="radio">
+				<div class="col-sm-9 col-sm-offset-3">
+					<label>
+						<input type="radio" name="requesttype" value="comment">Comment
+					</label>
+				</div>	
+			</div>			
+		</div> <!-- form-group for radio button -->
+
+		<div class="form-group">
+			<label class="control-label col-sm-3">Subscribe</label>
+			<div class="checkbox">
+				<div class="col-sm-9">
+					<label>
+						<input type="checkbox" id="subscribe" name="subscribe" checked value="yes">Would you like to subscribe to our email list?
+					</label>
+				</div>
+			</div>
+			</label>
+		</div> <!-- form-group for checkbox -->
+
+		<div class="form-group">
+			<label for="" class="col-sm-3 control-label">How did you hear about the Roux Academy Conference?</label>
+			<div class="col-sm-9">
+				<select class="form-control">
+					<option value="">Choose...</option>
+					<option value="frinend">A friend</option>
+					<option value="facebook">facebook</option>
+					<option value="twitter">Twitter</option>
+				</select>
+			</div>
+		</div> <!-- form-group for select option -->
+	</fieldset>
+
+	<button class="btn btn-primary" type="submit">Submit</button>
+	</form>
+</article>
