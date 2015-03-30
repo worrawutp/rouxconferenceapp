@@ -104,4 +104,56 @@
 		padding-bottom: 0;
 		border-bottom: 1px dotted @purple;
 	}
+	h3 {
+		color: @pink;
+		padding: 0;
+		margin: 0;
+		font-size: 1.5em;
+	}
  }
+
+ .nav-tabs {
+ 	li a {
+ 		color: @pink;
+ 	}
+ 	li.active a {
+ 		background: @beige;
+ 	}
+	li a:hover {
+		background: @pink;
+		color: white;
+	}
+ }
+
+.nav-tabs li.active {
+	a {
+		color: @pink;
+		font-weight: bold;
+	}
+}
+
+.tab-content {
+	h3, h4 {
+		margin: 0;
+		padding: 0;
+	}
+
+	h3 {
+		color: @pink;
+		line-height: 1em;
+	}
+	p {
+		padding: 0;
+		padding-top: 10px;
+	}
+}
+
+.photogrid img{
+	width: 96px;
+	margin: 0 5px 5px 0;
+	cursor: pointer;
+
+	@media (max-width: 990px) {
+		width: 64px;
+	}
+}
